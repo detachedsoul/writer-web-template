@@ -1,26 +1,31 @@
 @font-face {
     font-family: 'Trebuchet MS';
     src: url('../Trebuchet MS.ttf') format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Bitter';
     src: url('../Bitter.ttf') format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Caligula';
     src: url('../Caligula.ttf') format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Luckiest Guy';
     src: url('../Luckiest Guy.ttf') format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Montserrat';
     src: url('../Montserrat.ttf') format('truetype');
+    font-display: swap;
 }
 
 :root {
