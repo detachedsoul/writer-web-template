@@ -1,0 +1,199 @@
+@media only screen and (min-width: 400px) {
+    .post,
+    .form-container {
+        width: 95%;
+    }
+
+    .nav-content {
+        width: 80%;
+        box-shadow: 10px 20px 20px grey;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .hero-text {
+        font-size: 1.5rem;
+    }
+
+    .post
+    .form-container {
+        width: 90%;
+    }
+
+    .form-container {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .divider {
+        width: 90%;
+    }
+
+    .hero-text {
+        font-size: 2rem;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .post-no-margin {
+        margin-bottom: -5rem;
+    }
+
+    .post,
+    .form-container {
+        width: 75%;
+    }
+
+    .nav-content {
+        width: 40%;
+    }
+
+    .profile-content {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 899px) {
+    .about {
+        grid-area: about;
+    }
+
+    .recent {
+        grid-area: recent;
+    }
+
+    .contact-us {
+        grid-area: contact-us;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-areas: 'about contact-us'
+                             'recent .';
+        grid-template-columns: repeat(2, 6fr);
+        gap: 2rem;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .post {
+        width: 70%;
+    }
+
+    .form-container {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    footer {
+        padding-top: 2rem;
+    }
+
+    .divider {
+        width: 100%;
+    }
+
+    .nav-controls {
+        padding: .5rem 10%;
+    }
+
+    .nav-toggle span::before {
+        top: 1.2rem;
+    }
+
+    .nav-toggle span::after {
+        right: 10%;
+        top: 2.4rem;
+    }
+
+    .nav-toggle-close span::before,
+    .nav-toggle-close span::after {
+        top: 28px;
+    }
+
+    .nav-content {
+        width: 30%;
+    }
+
+    .hero-text {
+        font-size: 2.5rem;
+        top: 15vh;
+    }
+
+    .post,
+    .footer-grid,
+    .comments {
+        width: 90%;
+        margin: auto;
+    }
+
+    .post-container,
+    .contact,
+    .form-alternative  {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .post-img {
+        height: 300px;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 4fr);
+        gap: 5rem;
+    }
+
+    .form-container {
+        width: 50%;
+        margin: 10% auto;
+    }
+
+    .form-alternative {
+        margin: 2% auto auto auto;
+    }
+
+    .comments,
+    .comments .form-input-div,
+    .comments .send-message-btn {
+        margin-top: 2rem;
+    }
+
+    /*.comments .form-input-div,
+    .comments .send-message-btn {
+        width: 100%;
+    }*/
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav-content {
+        width: 25%;
+    }
+
+    .post,
+    .footer-grid {
+        width: 80%;
+    }
+
+    .post-img {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .container {
+        width: 80%;
+    }
+
+    .post-img {
+        height: 350px;
+    }
+}

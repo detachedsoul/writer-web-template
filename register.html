@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Writer Web Template">
+    <meta name="author" content="Wisdom Ojimah">
+    <title>Registration Form</title>
+    
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="relative">
+    <!-- Header -->
+    <header class="sticky">
+        <div class="nav-container flex flex-column">
+            <div class="nav-controls flex justify-between align-center">
+                <span class="logo">
+                    Writer
+                </span>
+                <a class="nav-toggle" href="javascript:void(0)">
+                    <span></span>
+                </a>
+            </div>
+            <div class="nav-content">
+                <div class="nav-user-container flex justify-between align-center">
+                    <img class="rounded" src="assets/img/wisdom.jpg" width="50" height="50">
+                    <span class="nav-username">Wisdom Ojimah</span>
+                </div>
+                <div class="nav-links-container relative">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item relative">
+                        <a class="nav-link flex justify-between align-center dropdown-btn" href="javascript:void(0)">
+                            Dropdown
+                            <i class="fas fa-caret-down"></i>
+                        </a>
+                        <div class="dropdown absolute">
+                            <a class="dropdown-link" href="category.html">
+                                Dropdown Link
+                            </a>
+                            <a class="dropdown-link" href="category.html">
+                                Dropdown Link
+                            </a>
+                            <a class="dropdown-link" href="category.html">
+                                Dropdown Link
+                            </a>
+                            <a class="dropdown-link" href="category.html">
+                                Dropdown Link
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            Login
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">
+                            Register
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                    <form class="search flex align-center">
+                        <input class="search-input" type="search" name="search" placeholder="Search site">
+                        <button class="btn search-btn grey-btn">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+	<div class="form-container">
+
+		<h2 class="text-center form-header">
+            Registration Form
+        </h2>
+
+        <form method="post">
+            <div class="form-input-div contact">
+            	<label>Username</label>
+            	<input class="form-input" type="text" name="username" placeholder="Username">
+            </div>
+            <div class="form-input-div contact">
+                <label>Email</label>
+                <input class="form-input" type="email" name="email" placeholder="Email">
+            </div>
+            <div class="form-input-div contact">
+            	<label>Password</label>
+            	<input class="form-input" type="password" name="password" placeholder="Password">
+            </div>
+            <button class="btn send-message-btn form-input grey-btn contact" type="submit" name="register">
+                Register <i class="fas fa-user-cog"></i>
+            </button>
+        </form>
+		
+		<a class="link flex justify-end align-center form-alternative" href="login.html">
+        	Already have an account? Login instead.
+        </a>
+
+	</div>
+
+
+	<!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="about">
+                <h2 class="footer-header">About Us</h2>
+                <p>
+                    Poetry is medicine for the soul, an avenue through which we express our innermost 
+                    thoughts and give interpretations of nature and the things around us. 
+                </p>
+            </div>
+            <div class="recent">
+                <h2 class="footer-header">Recent Posts</h2>
+                <a class="link footer-link" href="post.html">
+                    Musing of a Lost Soul
+                </a>
+                <a class="link footer-link" href="post.html">
+                    Already Dead
+                </a>
+                <a class="link footer-link" href="post.html">
+                    What I Seldomly Feel
+                </a>
+                <a class="link footer-link" href="post.html">
+                    Let Us Believe
+                </a>
+            </div>
+            <div class="contact-us">
+                <h2 class="footer-header">Contact Us</h2>
+                <p>
+                    Have a poem or a suggestion for us, a feature you'll like us to add or a bug to report? We'll love to hear from you. 
+                </p>
+                <p class="footer-icons flex align-center">
+                    <a class="rounded" href="https://www.facebook.com/IamWisdomOjimah" target="_blank" title="Wisdom">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="rounded" href="https://github.com/LoneSadist" target="_blank" title="Wisdom">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a class="rounded" href="https://wa.me/+2348067589085" target="_blank" title="Wisdom">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                    <a class="rounded" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fng.linkedin.com%2Fin%2Fwisdom-ojimah-9a4466186&psig=AOvVaw0msUMY9C5MUwLGkaJPkbwD&ust=1595550894069000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCKjS2LmQ4uoCFQAAAAAdAAAAABAD" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="rounded" href="mailto: vindicatedwisdom@gmail.com" target="_blank" title="Wisdom">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </p>
+                <p>
+                    You can also send us a direct message using this link <a class="footer-link" href="contact.html">Contact form.</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="copyright text-center">
+            Made with <i class="far fa-heart fa-fw"></i> by <a class="footer-link" href="www.github.com/detachedsoul" target="_blank">Wisdom Ojimah</a>
+        </div>
+    </footer>
+
+
+    <a class="top" href="javascript:void(0)">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/icons/css/all.min.css">
+    <script src="assets/js/main.js "></script>
+</body>
+
+</html>
